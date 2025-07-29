@@ -12,7 +12,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', secrets.token_hex(32))
 
 # Supabase Configuration
-SUPABASE_URL = os.environ.get('SUPABASE_URL', 'https://supabase.com/dashboard/project/wjbmphqqlztzndzaprdq')
+SUPABASE_URL = os.environ.get('SUPABASE_URL', 'https://wjbmphqqlztzndzaprdq.supabase.co')
 SUPABASE_KEY = os.environ.get('SUPABASE_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndqYm1waHFxbHp0em5kemFwcmRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM4MDgyMjksImV4cCI6MjA2OTM4NDIyOX0.DnpnmZiXFtzFaEwTVTxgNc5ICx2sVb7XXnIez8TEXls')
 
 # Initialize Supabase client
